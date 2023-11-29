@@ -1,0 +1,58 @@
+/* home */
+.home{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+/* banner */
+.banner{
+    display: none;
+    width: 100%;
+}
+
+/* productos */
+
+.main__section__article__div{
+    position: relative;
+}
+
+.muestra{
+    width: 100%;
+}
+
+.promo{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.main__section__article__div a{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main__section__article h3{
+    margin: 20px 0;
+
+}
+
+.main__section__article p{
+    color:  var(--colorGris);
+}
+
+.main__section__article button{
+    background-color: var(--colorGrisOscuro);
+    padding: 5px;
+    margin: 20px 0;
+    
+}
