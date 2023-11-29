@@ -32,10 +32,32 @@ header{
 } 
 
 .header__nav ul li{
-    background-color: var(--colorGris);
+    background-color: var(--colorGrisOscuro);
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
+/* tablet */
+
+@media (min-width:768px){
+    
+    .menu{
+        display: none;
+    }
+
+    .header__nav ul{
+        flex-direction: row;
+        gap: 10px;
+    } 
+    .header__nav ul li{
+        font-size: 0.7rem;
+    }
+}
+
+@media(min-width:1024px){
+    .header__nav ul li{
+        font-size: 1rem;
+    }
+}

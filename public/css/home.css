@@ -1,17 +1,16 @@
-/* home */
-.home{
-    width: 90%;
-    margin: 0 auto;
 
-}
 
 /* banner */
-.banner{
+.banner img{
     display: none;
     width: 100%;
 }
 
 /* productos */
+
+.main__section__article{
+    width: 100%;
+}
 
 .main__section__article__div{
     position: relative;
@@ -55,4 +54,29 @@
     padding: 5px;
     margin: 20px 0;
     
+}
+
+@media (min-width:768px){
+    /* banner */
+    .banner img{
+        display: block  ;
+    }
+
+    /* productos */
+    .main__section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }   
+
+    .main__section__article{
+        width: 49%;
+    }
+}
+
+@media (min-width:1024px){
+    .main__section__article{
+        width: 32%;
+    }
 }
